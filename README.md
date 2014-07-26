@@ -11,16 +11,16 @@ Once cloned, cd into the directory and run
 
 Install the NPM and bower dependencies using
 
-'''sh
+```sh
 
 bower install
 npm install
 
-'''
+```
 
 Now you can build the app using
 
-'''sh
+```sh
 
 #these two commands do the same thing
 grunt 
@@ -31,5 +31,5 @@ grunt dist
 # while developing you can run
 grunt watch
 # this will automatically run grunt dev when files have changed. dist will be updated without manaually running grunt
-'''
+```
 
