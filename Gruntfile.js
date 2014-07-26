@@ -13,7 +13,12 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         yeoman: yeomanConfig,
-        watch: {},
+        watch: {
+              src: {
+                files: ['app/**/*'],
+                tasks: ['dev']
+            }
+        },
         clean: {
             dist: {
                 files: [
